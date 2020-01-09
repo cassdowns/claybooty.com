@@ -17,13 +17,6 @@ body {
 	margin-right: 10%;
 }
 
-#ideaDisplay {
-	font-size: 56px;
-	font-weight: 600;
-	color: blue;
-	font-family: 'Cabin', sans-serif;
-}
-
 #floater {
 	z-index: 9999999999999;
     position: absolute;
