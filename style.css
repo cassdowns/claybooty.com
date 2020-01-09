@@ -1,7 +1,8 @@
 /* Structure */
 body {
 	font-family: 'Cabin', sans-serif;
-	font-size: 16px;
+    font-size: 16px;
+    background-color: pink;
 }
 
 #wrapper {
