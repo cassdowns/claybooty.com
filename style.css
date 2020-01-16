@@ -5,8 +5,8 @@ html, body {
 }
 
 .container {
-    width: 100%;
-	height: 100%;
+	margin-right: auto;
+	margin-left:  auto;
 	background-color: blue;
 }
 
@@ -16,8 +16,13 @@ html, body {
 	max-width: 960px; 
 	padding-right: 10px; 
 	padding-left:  10px; 
-	border: 1px solid white;
-  }
+	border: 4px solid white;
+}
+
+.logo {
+	text-align: center;
+	max-width: 80%;
+}
 
 @media only screen and (max-width: 600px) {
 }
