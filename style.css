@@ -20,9 +20,8 @@ html, body {
 }
 
 .logo {
-	text-align: center;
 	max-width: 80%;
-	background-color: pink;
+	margin: auto;
 }
 
 .logo img {
