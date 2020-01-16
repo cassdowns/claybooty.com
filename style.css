@@ -18,20 +18,10 @@ body {
 	margin-right: 10%;
 }
 
-#floater {
-	z-index: 9999999999999;
-    position: absolute;
-    bottom: 2%;
-    right: 3%;
-    padding:3%;
-}
-
 /* Fonts */
 
 @font-face {
-	font-family: 'Menlo';
-	src: url('fonts/menlo.otf'); /* IE9 Compat Modes */
-  	src: url('fonts/menlo.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	font-family: 'Questrial';
 }
 
 h1 {
