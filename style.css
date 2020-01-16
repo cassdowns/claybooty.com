@@ -22,6 +22,7 @@ html, body {
 .logo {
 	max-width: 80%;
 	margin: auto;
+	border: 1px solid red;
 }
 
 .logo img {
@@ -29,7 +30,7 @@ html, body {
 }
 
 .dance {
-	max-width: 40%;
+	max-width: 50%;
 	margin: auto;
 	border: 1px solid white;
 }
@@ -41,4 +42,7 @@ html, body {
 
 
 @media only screen and (max-width: 600px) {
+	.dance {
+		width: 80%;
+	}
 }
