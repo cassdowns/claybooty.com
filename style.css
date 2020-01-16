@@ -35,6 +35,10 @@ html, body {
 	border: 2px solid black;
 }
 
+.contact img {
+	object-fit: contain;
+}
+
 .dance {
 	max-width: 50%;
 	margin: auto;
