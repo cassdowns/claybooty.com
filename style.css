@@ -30,13 +30,9 @@ html, body {
 }
 
 .contact {
-	max-height: 48px;
+	height: 48px;
 	margin: auto;
 	border: 2px solid black;
-}
-
-.contact img {
-	height: 100%;
 }
 
 .dance {
