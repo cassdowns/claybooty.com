@@ -33,12 +33,12 @@ html, body {
 	height: 48px;
 	margin: auto;
 	border: 2px solid black;
-	display: inline-block;
 }
 
-.contact img {
+#insta, #email {
 	object-fit: contain;
 	height: 100%;
+	display: inline-block;
 }
 
 .dance {
@@ -54,11 +54,11 @@ html, body {
 
 
 @media only screen and (max-width: 600px) {
-	.dance {
-		width: 80%;
+	.dance img {
+		max-width: 75%;
 	}
 
 	.contact {
-		height: 24px;
+		height: 32px;
 	}
 }
