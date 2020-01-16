@@ -4,55 +4,11 @@ html, body {
     background-color:#fff;
 }
 
-#wrapper{
-	min-width: 100%;
-	min-height: 100%;
-    margin:0 auto; 
-	background-color: salmon;
-}
-
-#inner {
-	max-width: 880px;
+#wrapper {
+    width: 100%;
 	height: 100%;
-	border: 5px solid blue;
-	margin-top: 20%;
-	margin-bottom: 20%;
-	margin-left: 10%;
-	margin-right: 10%;
+	background-color: blue;
 }
-
-#logo {
-	width: 80%;
-	border: 2px solid pink;
-}
-
-/* Fonts */
-
-h1 {
-	color: #000;
-	font-size: 40px;
-	font-family: 'Questrial', sans-serif;
-}
-
-p {
-	color: #000;
-	font-family: 'Questrial', sans-serif;
-	font-size: 16px;
-}
-
-a {
-	color: red;
-	margin-right: 20px;
-	text-decoration: none;
-}
-
-a:hover {
-	text-decoration: underline;
-	color: red;
-}
-
-/* Elements */
-
 
 @media only screen and (max-width: 600px) {
-    
+}
