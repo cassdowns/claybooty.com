@@ -14,11 +14,16 @@ html, body {
 #inner {
 	max-width: 880px;
 	height: 100%;
-	border: 1px blue;
+	border: 5px solid blue;
 	margin-top: 20%;
 	margin-bottom: 20%;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+
+#logo {
+	width: 80%;
+	border: 2px solid pink;
 }
 
 /* Fonts */
@@ -48,12 +53,6 @@ a:hover {
 
 /* Elements */
 
-#logo {
-    width: 80%;
-    border: none;
-    margin-top: 10%;
-    margin-bottom: 5%;
-}
 
 @media only screen and (max-width: 600px) {
     #inner {
