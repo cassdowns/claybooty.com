@@ -46,7 +46,7 @@ a:hover {
 /* Elements */
 
 .wip-logo {
-	background: pink;
+	background-color: pink;
 	width: 80%;
 	height: auto;
 	overflow: visible;
@@ -57,12 +57,12 @@ a:hover {
   }
 
 #contact {
-	background: yellow;
+	background-color: yellow;
 	width: 20%; 
 }
 
 .insta {
-	background: green;
+	background-color: green;
 	width: auto;
 	height: 100%;
 	margin-right: 40px;
@@ -74,7 +74,7 @@ a:hover {
   }
 
   .email {
-	background: blue;
+	background-color: blue;
 	width: auto;
 	height: 100%;
 	overflow: visible;
@@ -85,7 +85,7 @@ a:hover {
   }
 
   .dance {
-	background: red;
+	background-color: red;
 	width: 20%;
 	height: auto;
 	overflow: visible;
