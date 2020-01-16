@@ -30,15 +30,23 @@ html, body {
 }
 
 .contact {
-	height: 48px;
 	margin: auto;
 	border: 2px solid black;
-	display: inline-block;
 }
 
-.contact img {
-	object-fit: contain;
-	height: 100%;
+#imgInsta {
+	height: 48px;
+	margin-right: 40px;
+	background-image: url{"img/insta.png");
+}
+
+#imgEmail {
+	height: 48px;
+	background-image: url{"img/email.png");
+}
+
+#imgInsta:hover {
+	background-image: url{"img/email.png");
 }
 
 .dance {
@@ -56,5 +64,9 @@ html, body {
 @media only screen and (max-width: 600px) {
 	.dance {
 		width: 80%;
+	}
+
+	#imgInsta {
+		height: 24px;
 	}
 }
