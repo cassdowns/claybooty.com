@@ -50,6 +50,10 @@ a:hover {
 
 /* Elements */
 
+img {
+	width: 100%;
+}
+
 #contact {
     max-width: 80%;
     border: none;
@@ -60,7 +64,7 @@ a:hover {
 }
 
 #logo {
-    max-width: 80%;
+    width: 80%;
     border: none;
     margin-top: 10%;
     margin-bottom: 5%;
@@ -71,8 +75,11 @@ body{
 }
 
 #wrapper{
+	min-width: 100%;
+	min-height: 100%;
     margin:0 auto; 
-    max-width:850px;
+	max-width:850px;
+	background-color: salmon;
 }
 
 @media only screen and (max-width: 600px) {
