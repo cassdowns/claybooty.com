@@ -36,9 +36,20 @@ html, body {
 
 .contact {
 	height: 48px;
-	margin: auto;
 	border: 2px solid black;
-	display: inline-block;
+	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.contact li {
+	display:inline;
+}
+
+.contact a {
+	display:inline-block;
+    padding:10px;
 }
 
 .contact img {
