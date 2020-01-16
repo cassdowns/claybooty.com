@@ -6,10 +6,11 @@ html, body {
     background-color:#fff;
 }
 
-#wrapper {
-    min-width:100%;
+#wrapper{
+	min-width: 100%;
 	min-height: 100%;
-	background-color: powderblue;
+    margin:0 auto; 
+	background-color: salmon;
 }
 
 #inner {
@@ -50,10 +51,6 @@ a:hover {
 
 /* Elements */
 
-img {
-	width: 100%;
-}
-
 #contact {
     max-width: 80%;
     border: none;
@@ -72,14 +69,6 @@ img {
 
 body{
    width: 100%;
-}
-
-#wrapper{
-	min-width: 100%;
-	min-height: 100%;
-    margin:0 auto; 
-	max-width:850px;
-	background-color: salmon;
 }
 
 @media only screen and (max-width: 600px) {
