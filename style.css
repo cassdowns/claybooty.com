@@ -30,14 +30,12 @@ html, body {
 }
 
 .contact {
-	height: 48px;
 	margin: auto;
 	border: 2px solid black;
 }
 
 #insta, #email {
-	object-fit: contain;
-	height: 100%;
+	height: 48px;
 	display: inline-block;
 }
 
@@ -58,7 +56,7 @@ html, body {
 		max-width: 75%;
 	}
 
-	.contact {
+	#insta, #email {
 		height: 32px;
 	}
 }
