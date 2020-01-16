@@ -45,15 +45,27 @@ a:hover {
 
 /* Elements */
 
+.wip-logo {
+	width: 80%;
+	height: auto;
+	overflow: visible;
+	background-image: url("img/Wip_Logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	image-rendering: auto;
+  }
+
 #contact {
 	width: 20%; 
 }
 
 .insta {
-	width: 106px;
-	height: 32px;
+	width: auto;
+	height: 100%;
+	margin-right: 40px;
 	overflow: visible;
-	background-image: url(/* img/insta.png */);
+	background-image: url("img/insta.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -61,10 +73,10 @@ a:hover {
   }
 
   .email {
-	width: 82px;
-	height: 32px;
+	width: auto;
+	height: 100%;
 	overflow: visible;
-	background-image: url(/* img/email.png */);
+	background-image: url("img/email.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
