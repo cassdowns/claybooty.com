@@ -20,41 +20,56 @@ body {
 
 /* Fonts */
 
-@font-face {
-	font-family: 'Questrial';
-}
-
 h1 {
-	color: blue;
-	font-family: serif;
+	color: #000;
 	font-size: 40px;
-	font-style: italic;
-	font-family: 'Cabin', sans-serif;
+	font-family: 'Questrial', sans-serif;
 }
 
 p {
-	color: blue;
-	font-family: 'Cabin', sans-serif;
+	color: #000;
+	font-family: 'Questrial', sans-serif;
 	font-size: 16px;
 }
 
 a {
-	color: blue;
+	color: red;
 	margin-right: 20px;
 	text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
-}
-
-strong {
-    text-decoration: underline;
+	text-decoration: underline;
+	color: red;
 }
 
 /* Elements */
 
+#contact {
+	width: 20%; 
+}
 
+.insta {
+	width: 106px;
+	height: 32px;
+	overflow: visible;
+	background-image: url(/* img/insta.png */);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	image-rendering: pixelated;
+  }
+
+  .email {
+	width: 82px;
+	height: 32px;
+	overflow: visible;
+	background-image: url(/* img/email.png */);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	image-rendering: auto;
+  }
 
 /* Button */
 button {
