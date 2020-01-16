@@ -29,6 +29,14 @@ html, body {
 	width: 100%;
 }
 
+.contact {
+	max-height: 48px;
+}
+
+.contact img {
+	height: 100%;
+}
+
 .dance {
 	max-width: 50%;
 	margin: auto;
