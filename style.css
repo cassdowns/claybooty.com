@@ -2,6 +2,9 @@
 
 img.float {
 	text-align:center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 html, body {
@@ -19,6 +22,8 @@ html, body {
 
 #inner {
 	background-color: pink;
+	max-width: 880px;
+	height: 100%;
 	border: none;
 	margin-top: 20%;
 	margin-bottom: 20%;
