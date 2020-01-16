@@ -32,7 +32,9 @@ html, body {
 .contact {
 	height: 48px;
 	margin: auto;
+	width: auto;
 	border: 2px solid black;
+	display: inline-block;
 }
 
 .contact img {
