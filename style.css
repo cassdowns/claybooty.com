@@ -83,6 +83,17 @@ a:hover {
 	image-rendering: auto;
   }
 
+  .dance {
+	width: 20%;
+	height: auto;
+	overflow: visible;
+	background-image: url("img/Twerk.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	image-rendering: pixelated;
+  }
+
 /* Button */
 button {
 	border: 2px solid blue;
