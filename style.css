@@ -1,8 +1,6 @@
 /* Structure */
 
 html, body {
-	font-family: 'Questrial', sans-serif;
-    font-size: 16px;
     background-color:#fff;
 }
 
@@ -14,10 +12,9 @@ html, body {
 }
 
 #inner {
-	background-color: red;
 	max-width: 880px;
 	height: 100%;
-	border: none;
+	border: 1px blue;
 	margin-top: 20%;
 	margin-bottom: 20%;
 	margin-left: 10%;
@@ -51,24 +48,11 @@ a:hover {
 
 /* Elements */
 
-#contact {
-    max-width: 80%;
-    border: none;
-}
-
-#contact img {
-	height: 48px;
-}
-
 #logo {
     width: 80%;
     border: none;
     margin-top: 10%;
     margin-bottom: 5%;
-}
-
-body{
-   width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
