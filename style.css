@@ -1,12 +1,5 @@
 /* Structure */
 
-img.float {
-	text-align:center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 html, body {
 	margin: 0;
 	font-family: 'Questrial', sans-serif;
@@ -21,7 +14,7 @@ html, body {
 }
 
 #inner {
-	background-color: pink;
+	background-color: red;
 	max-width: 880px;
 	height: 100%;
 	border: none;
