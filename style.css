@@ -55,6 +55,10 @@ a:hover {
     border: none;
 }
 
+#contact.img {
+	height: 48px;
+}
+
 #logo {
     max-width: 80%;
     border: none;
