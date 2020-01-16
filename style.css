@@ -49,6 +49,10 @@ html, body {
 	height: 100%;
 }
 
+#linkEmail:hover {
+	background-image: url(img/EmailHover.gif);
+}
+
 .dance {
 	max-width: 50%;
 	margin: auto;
