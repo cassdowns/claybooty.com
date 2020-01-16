@@ -41,7 +41,6 @@ html, body {
 
 .contact a {
 	display:inline-block;
-	padding:10px;
 	height: inherit;
 }
 
@@ -72,5 +71,9 @@ html, body {
 
 	.logo {
 		max-width: 90%;
+	}
+
+	.logo img {
+		margin-top: 5%;
 	}
 }
