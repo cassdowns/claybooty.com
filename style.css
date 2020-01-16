@@ -24,13 +24,18 @@ html, body {
 	margin: auto;
 }
 
-.logo, .dance img {
+.logo img {
 	width: 100%;
 }
 
 .dance {
 	max-width: 40%;
 	margin: auto;
+	border: 1px solid white;
+}
+
+.dance img {
+	width: 100%;
 }
 
 
