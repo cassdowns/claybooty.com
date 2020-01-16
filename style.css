@@ -35,7 +35,6 @@ html, body {
 }
 
 .contact {
-	height: 48px;
 	border: 2px solid black;
 	list-style:none;
     margin:0;
@@ -45,6 +44,7 @@ html, body {
 
 .contact li {
 	display:inline;
+	height: 48px
 }
 
 .contact a {
@@ -74,7 +74,7 @@ html, body {
 		max-width: 75%;
 	}
 
-	.contact {
+	.contact li {
 		height: 24px;
 	}
 }
