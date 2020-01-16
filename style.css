@@ -49,7 +49,7 @@ html, body {
 	height: 100%;
 }
 
-#linkEmail:hover {
+a #linkEmail:hover {
 	background-image: url(img/EmailHover.gif);
 }
 
