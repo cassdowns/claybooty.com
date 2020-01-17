@@ -42,6 +42,10 @@ html, body {
 	height: 56px;
 }
 
+#imgInsta {
+	margin-right: 40px;
+}
+
 .dance {
 	max-width: 50%;
 	margin: auto;
