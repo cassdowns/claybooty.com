@@ -36,21 +36,14 @@ html, body {
 
 .contact li {
 	display:inline;
-	height: 48px
 }
 
 .contact a {
 	display:inline-block;
-	height: inherit;
 }
 
 .contact img {
-	object-fit: contain;
-	height: 100%;
-}
-
-#linkEmail a:hover, a.selected {
-	background-image: url(img/EmailHover.gif);
+	height: 48px;
 }
 
 .dance {
@@ -62,20 +55,29 @@ html, body {
 	width: 100%;
 }
 
+/* tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.dance {
+		max-width: 70%;
+	}
+}
 
-
-@media only screen and (max-width: 600px) {
+/* phone*/
+@media only screen 
+and (max-width: 600px) {
 	.dance {
 		max-width: 75%;
 		margin-top: 2.5%
 	}
 
-	.contact li {
+	.contact img {
 		height: 32px;
 	}
 
 	.logo {
-		max-width: 90%;
+		max-width: 100%;
 	}
 
 	.logo img {
