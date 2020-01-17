@@ -18,7 +18,7 @@ html, body {
 }
 
 .logo {
-	max-width: 40%;
+	width: 40%;
 	margin: 0;
 }
 
@@ -84,7 +84,7 @@ and (max-device-width : 1024px) {
 	}
 
 	.logo {
-		max-width: 80%;
+		width: 80%;
 		margin: auto;
 	}
 	
@@ -129,7 +129,7 @@ and (max-device-width : 1024px) {
 	}
 
 	.logo {
-		max-width: 90%;
+		width: 90%;
 	}
 
 	.logo img {
