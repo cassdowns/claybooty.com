@@ -18,8 +18,8 @@ html, body {
 }
 
 .logo {
-	max-width: 80%;
-	margin: auto;
+	max-width: 40%;
+	margin: 0;
 }
 
 .logo img {
@@ -62,8 +62,62 @@ html, body {
 	width: 100%;
 }
 
+/* tablet */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	.wrapper {
+		margin-right: auto; 
+		margin-left:  auto; 
+		max-width: 100%; 
+		padding-right: 10%; 
+		padding-left:  10%; 
+	}
+
+	.dance {
+		max-width: 50%;
+		margin: auto;
+	}
+	
+	.dance img {
+		width: 100%;
+	}
+
+	.logo {
+		max-width: 80%;
+		margin: auto;
+	}
+	
+	.logo img {
+		width: 100%;
+		margin-top: 2.5%;
+	}
+	
+	.contact {
+		list-style:none;
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
+	
+	.contact li {
+		display:inline;
+		height: 48px
+	}
+	
+	.contact a {
+		display:inline-block;
+		height: inherit;
+	}
+	
+	.contact img {
+		object-fit: contain;
+		height: 100%;
+	}
+}
 
 
+/* phone */
 @media only screen and (max-width: 600px) {
 	.dance {
 		max-width: 75%;
