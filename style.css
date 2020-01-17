@@ -37,7 +37,6 @@ html, body {
 		}
 
 	.contact {
-		list-style:none;
 		margin: 0;
 		border: 2px dashed blue;
 	}
@@ -53,6 +52,8 @@ html, body {
 /* Body of the site */
 .content {
 	background-color: wheat;
+	margin: 0 auto;
+	width: 100%;
 }
 
 	.dance {
@@ -78,16 +79,6 @@ and (max-device-width : 1024px) {
 		max-width: 100%; 
 	}
 
-	.dance {
-		max-width: 50%;
-		margin: auto;
-		float: none;
-	}
-	
-	.dance img {
-		width: 100%;
-	}
-
 	.logo {
 		width: 90%;
 		margin: auto;
@@ -106,6 +97,16 @@ and (max-device-width : 1024px) {
 	.contact img {
 		height: 48px;
 	}
+
+	.dance {
+		max-width: 50%;
+		margin: auto;
+		float: none;
+	}
+	
+	.dance img {
+		width: 100%;
+	}
 }
 
 
@@ -115,9 +116,13 @@ and (max-device-width : 1024px) {
 		max-width: 100%; 
 	}
 
-	.dance {
-		max-width: 75%;
-		margin-top: 2.5%;
+	.logo {
+		width: 100%;
+		margin-bottom: 5%;
+		margin-top: 7.5%;
+	}
+
+	.contact li {
 		float: none;
 	}
 
@@ -125,10 +130,10 @@ and (max-device-width : 1024px) {
 		height: 32px;
 	}
 
-	.logo {
-		width: 100%;
-		margin-bottom: 5%;
-		margin-top: 7.5%;
+	.dance {
+		max-width: 75%;
+		margin-top: 2.5%;
+		float: none;
 	}
 
 }
