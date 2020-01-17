@@ -59,6 +59,7 @@ html, body {
 .content {
 	width: 100%;
 	background-color: green;
+	grid-column: main;
 }
 
 /* tablet */
@@ -118,3 +119,11 @@ p {
 	font-size: 24px;
 	color: black;
 }
+
+/* 
+Colours
+Teal = #80f6d5
+Pink = f5c1eb
+Yellow = fde114
+Blue = bcf0f7
+*/
