@@ -139,10 +139,14 @@ and (max-width: 600px) {
 	}
 
 	.content {
-		padding: 0% 2.5%;
+		padding: 0% 2.5% 5% 2.5%;
 	}
 
 	h1 {
 		font-size: 32px;
+	}
+
+	p {
+		font-size: 18px;
 	}
 }
