@@ -23,15 +23,17 @@ html, body {
 }
 
 .logo {
+	width: 40%;
 	margin: 0;
 	margin-top: 2.5%;
 	border: 2px solid red;
+	float: left;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .logo img {
-	width: 40%;
+	width: 100%;
 }
 
 .contact {
@@ -40,11 +42,12 @@ html, body {
 	padding:0;
 	display: inline-block;
 	vertical-align: middle;
-	right: 0;
+	float: right;
 }
 
 .contact li {
 	display:inline;
+	height: 48px
 }
 
 .contact a {
@@ -54,7 +57,7 @@ html, body {
 
 .contact img {
 	object-fit: contain;
-	height: 48px;
+	height: 100%;
 }
 
 #linkEmail a:hover, a.selected {
@@ -62,11 +65,12 @@ html, body {
 }
 
 .dance {
+	max-width: 50%;
 	margin: auto;
 }
 
 .dance img {
-	width: 50%;
+	width: 100%;
 }
 
 /* tablet */
@@ -80,22 +84,25 @@ and (max-device-width : 1024px) {
 	}
 
 	.dance {
+		max-width: 50%;
 		margin: auto;
 	}
 	
 	.dance img {
-		width: 50%;
+		width: 100%;
 	}
 
 	.logo {
+		width: 80%;
 		margin: auto;
 		margin-top: 2.5%;
+		float: none;
 		display: initial;
 		vertical-align: middle;
 	}
 	
 	.logo img {
-		width: 80%;
+		width: 100%;
 	}
 	
 	.contact {
@@ -107,10 +114,10 @@ and (max-device-width : 1024px) {
 	
 	.contact li {
 		display:inline;
+		height: 48px;
 		float: none;
 		display: initial;
 		vertical-align: middle;
-		right: initial;
 	}
 	
 	.contact a {
@@ -120,7 +127,7 @@ and (max-device-width : 1024px) {
 	
 	.contact img {
 		object-fit: contain;
-		height: 48px;
+		height: 100%;
 	}
 }
 
@@ -134,19 +141,15 @@ and (max-device-width : 1024px) {
 	}
 
 	.dance {
+		max-width: 75%;
 		margin-top: 2.5%
 	}
 
-	.dance img {
-		width: 75%;
-	}
-
 	.contact li {
-		display: initial;
-	}
-
-	.contact img {
 		height: 32px;
+		float: none;
+		display: initial;
+		vertical-align: middle;
 	}
 
 	.logo {
@@ -154,7 +157,9 @@ and (max-device-width : 1024px) {
 		margin: auto;
 		margin-bottom: 5%;
 		margin-top: 7.5%;
+		float: none;
 		display: initial;
+		vertical-align: middle;
 	}
 
 }
