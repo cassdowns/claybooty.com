@@ -57,8 +57,8 @@ html, body {
 
 	.content {
 		width: 75%;
-		background-color: green;
 		text-align: center;
+		margin: auto;
 	}
 
 /* tablet */
