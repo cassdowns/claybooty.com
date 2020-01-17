@@ -31,8 +31,8 @@ html, body {
 .contact {
 	list-style:none;
     margin:0;
-    padding:0;
-    text-align:center;
+	padding:0;
+	top: 0;
 }
 
 .contact li {
@@ -134,12 +134,10 @@ and (max-device-width : 1024px) {
 	}
 
 	.logo {
-		width: 90%;
+		width: 100%;
 		margin: auto;
 		margin-bottom: 5%;
-	}
-
-	.logo img {
 		margin-top: 7.5%;
 	}
+
 }
