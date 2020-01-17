@@ -5,8 +5,8 @@ html, body {
 }
 
 .container {
-		grid-template-columns: [edgeL] 5% [gutterL] 10% [mid] auto [gutterR] 10% [edgeR] 5%;
-		grid-template-rows: [roof] 2.5% [house] auto [floor] 2.5%;
+	width: 100%;
+	height: 100%;
 }
 
 .wrapper {
@@ -15,7 +15,6 @@ html, body {
 	max-width: 960px; 
 	padding-right: 10px; 
 	padding-left:  10px;
-	grid-column: mid / span 1;
 }
 
 	.logo {
@@ -118,6 +117,12 @@ p {
 	font-family: Questrial, sans-serif;
 	font-size: 24px;
 	color: black;
+}
+
+h1 {
+	font-family: Poppins, sans-serif;
+	font-size: 48px;
+	color: #80f6d5;
 }
 
 /* 
