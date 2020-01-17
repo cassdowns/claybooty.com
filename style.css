@@ -15,7 +15,7 @@ html, body {
 	max-width: 960px; 
 	padding-right: 10px; 
 	padding-left:  10px;
-	grid-column: main;
+	grid-column: mid;
 }
 
 	.logo {
@@ -59,7 +59,7 @@ html, body {
 .content {
 	width: 100%;
 	background-color: green;
-	grid-column: main;
+	grid-column: mid;
 }
 
 /* tablet */
