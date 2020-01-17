@@ -1,145 +1,85 @@
-/* Shake your booty, shake your booooty */
+/* Structure */
+
 html, body {
     background-color:#fff;
 }
 
-/* Major lazer container */
 .container {
 	margin-right: auto;
 	margin-left:  auto;
 }
 
-/* Desktop constraints */
 .wrapper {
 	margin-right: auto; 
 	margin-left:  auto; 
 	max-width: 960px; 
-	padding: 2.5% 5%;
+	padding-right: 10px; 
+	padding-left:  10px; 
 }
 
-/* Top level navigation */
-#header {
+.logo {
+	max-width: 80%;
+	margin: auto;
+}
+
+.logo img {
 	width: 100%;
-	margin: 0 auto;
-	background-color: lightsalmon;
+	margin-top: 2.5%;
 }
 
-	.logo {
-		width: 50%;
-		margin: 0;
-		margin-top: 2.5%;
-		border: 2px solid red;
-		float: left;
-	}
+.contact {
+	list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
 
-		.logo img {
-			width: 100%;
-		}
+.contact li {
+	display:inline;
+	height: 48px
+}
 
-	.contact {
-		margin: 0;
-		border: 2px dashed blue;
-	}
+.contact a {
+	display:inline-block;
+	height: inherit;
+}
 
-<<<<<<< HEAD
-		.contact li {
-			display:inline;
-		}
-=======
-a #linkEmail:hover {
+.contact img {
+	object-fit: contain;
+	height: 100%;
+}
+
+#linkEmail a:hover, a.selected {
 	background-image: url(img/EmailHover.gif);
 }
->>>>>>> parent of 8c71338... Adjusted a selector
 
-		.contact img {
-			height: 48px;
-		}
+.dance {
+	max-width: 50%;
+	margin: auto;
+}
 
-/* Body of the site */
-.content {
-	background-color: wheat;
-	margin: 0 auto;
+.dance img {
 	width: 100%;
 }
 
-	.dance {
-		max-width: 50%;
-		margin: auto;
-		border: 2px dashed yellowgreen;
-		float: left;
-	}
-
-	.dance img {
-		width: 100%;
-	}
-
-	.body {
-		border: 2px solid mediumaquamarine;
-	}
-
-/* tablet */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-	.wrapper {
-		max-width: 100%; 
-	}
-
-	.logo {
-		width: 90%;
-		margin: auto;
-		margin-top: 2.5%;
-		float: none;
-	}
-	
-	.logo img {
-		width: 100%;
-	}
-	
-	.contact li {
-		float: none;
-	}
-	
-	.contact img {
-		height: 48px;
-	}
-
-	.dance {
-		max-width: 50%;
-		margin: auto;
-		float: none;
-	}
-	
-	.dance img {
-		width: 100%;
-	}
-}
 
 
-/* phone */
 @media only screen and (max-width: 600px) {
-	.wrapper {
-		max-width: 100%; 
-	}
-
-	.logo {
-		width: 100%;
-		margin-bottom: 5%;
-		margin-top: 7.5%;
+	.dance {
+		max-width: 75%;
+		margin-top: 2.5%
 	}
 
 	.contact li {
-		float: none;
-	}
-
-	.contact img {
 		height: 32px;
 	}
 
-	.dance {
-		max-width: 75%;
-		margin-top: 2.5%;
-		float: none;
+	.logo {
+		max-width: 90%;
 	}
 
+	.logo img {
+		margin-top: 7.5%;
+		margin-bottom: 5%;
+	}
 }
