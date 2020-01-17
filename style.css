@@ -28,6 +28,8 @@ html, body {
 	margin-top: 2.5%;
 	border: 2px solid red;
 	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .logo img {
@@ -38,7 +40,9 @@ html, body {
 	list-style:none;
     margin:0;
 	padding:0;
-	top: 0;
+	display: inline-block;
+	vertical-align: middle;
+	float: right;
 }
 
 .contact li {
@@ -92,6 +96,9 @@ and (max-device-width : 1024px) {
 		width: 80%;
 		margin: auto;
 		margin-top: 2.5%;
+		float: none;
+		display: initial;
+		vertical-align: middle;
 	}
 	
 	.logo img {
@@ -107,7 +114,10 @@ and (max-device-width : 1024px) {
 	
 	.contact li {
 		display:inline;
-		height: 48px
+		height: 48px;
+		float: none;
+		display: initial;
+		vertical-align: middle;
 	}
 	
 	.contact a {
@@ -137,6 +147,9 @@ and (max-device-width : 1024px) {
 
 	.contact li {
 		height: 32px;
+		float: none;
+		display: initial;
+		vertical-align: middle;
 	}
 
 	.logo {
@@ -144,6 +157,9 @@ and (max-device-width : 1024px) {
 		margin: auto;
 		margin-bottom: 5%;
 		margin-top: 7.5%;
+		float: none;
+		display: initial;
+		vertical-align: middle;
 	}
 
 }
