@@ -1,7 +1,8 @@
 /* Structure */
 
 html, body {
-    background-color:#fff;
+	background-color:#fff;
+	cursor: URL(img/booty.cur);
 }
 
 .container {
@@ -17,34 +18,34 @@ html, body {
 	padding-left:  10px; 
 }
 
-.logo {
-	max-width: 80%;
-	margin: auto;
-}
+	.logo {
+		max-width: 80%;
+		margin: auto;
+	}
 
-.logo img {
-	width: 100%;
-	margin-top: 2.5%;
-}
+	.logo img {
+		width: 100%;
+		margin-top: 2.5%;
+	}
 
-.contact {
-	list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-}
+	.contact {
+		list-style:none;
+		margin:0;
+		padding:0;
+		text-align:center;
+	}
 
-.contact li {
-	display:inline;
-}
+	.contact li {
+		display:inline;
+	}
 
-.contact img {
-	height: 56px;
-}
+	.contact img {
+		height: 56px;
+	}
 
-#imgInsta {
-	margin-right: 40px;
-}
+	#imgInsta {
+		margin-right: 40px;
+	}
 
 .dance {
 	max-width: 50%;
@@ -55,10 +56,23 @@ html, body {
 	width: 100%;
 }
 
+.content {
+	width: 100%;
+	background-color: green;
+}
+
 /* tablet */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
+	.logo {
+		max-width: 90%;
+	}
+
+	.logo img {
+		margin-top: 5%;
+	}
+	
 	#imgInsta {
 		margin-right: 32px;
 	}
@@ -96,4 +110,11 @@ and (max-width: 600px) {
 		max-width: 75%;
 		margin-top: 2.5%
 	}
+}
+
+/* Fonts */
+p {
+	font-family: Questrial, sans-serif;
+	font-size: 24px;
+	color: black;
 }
