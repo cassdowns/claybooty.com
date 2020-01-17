@@ -42,13 +42,18 @@ html, body {
 	height: 56px;
 }
 
-#imgInsta {
-	margin-right: 40px;
-}
+	#imgInsta {
+		background-image: url('img/insta.png');
+		margin-right: 40px;
+	}
 
-#imgInsta a:hover {
-	background-image: url(img/EmailHover.gif)
-}
+	#imgEmail {
+		background-image: url('img/email.png');
+	}
+	
+	#imgEmail:hover {
+		background-image: url('img/EmailHover.gif');
+	}
 
 .dance {
 	max-width: 50%;
