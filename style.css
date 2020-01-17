@@ -22,53 +22,54 @@ html, body {
 	background-color: lightsalmon;
 }
 
-.logo {
-	width: 50%;
-	margin: 0;
-	margin-top: 2.5%;
-	border: 2px solid red;
-	float: left;
-}
+	.logo {
+		width: 50%;
+		margin: 0;
+		margin-top: 2.5%;
+		border: 2px solid red;
+		float: left;
+	}
 
-.logo img {
-	width: 100%;
-}
+	.logo img {
+		width: 100%;
+	}
 
-.contact {
-	list-style:none;
-    margin: 0;
-}
+	.contact {
+		list-style:none;
+		margin: 0;
+		border: 2px dashed blue;
+	}
 
-.contact li {
-	display:inline;
-}
+	.contact li {
+		display:inline;
+	}
 
-.contact a {
-	display:inline-block;
-}
+	.contact a {
+		display:inline-block;
+	}
 
-.contact img {
-	object-fit: contain;
-	height: 48px;
-}
-
-#linkEmail a:hover, a.selected {
-	background-image: url(img/EmailHover.gif);
-}
-
-.dance {
-	max-width: 50%;
-	margin: auto;
-	background-color: lightskyblue;
-}
-
-.dance img {
-	width: 100%;
-}
+	.contact img {
+		object-fit: contain;
+		height: 48px;
+	}
 
 .content {
 	background-color: lime;
 }
+
+	.dance {
+		max-width: 50%;
+		margin: auto;
+		border: 2px dashed blue;
+	}
+
+	.dance img {
+		width: 100%;
+	}
+
+	.body {
+		border: 2px solid mediumaquamarine;
+	}
 
 /* tablet */
 @media only screen 
