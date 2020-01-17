@@ -4,11 +4,7 @@ html, body {
     background-color:#fff;
 }
 
-.container {
-	margin-right: auto;
-	margin-left:  auto;
-}
-
+/* Big boy container */
 .wrapper {
 	margin-right: auto; 
 	margin-left:  auto; 
@@ -16,55 +12,51 @@ html, body {
 	padding: 2.5% 5%;
 }
 
-#header {
+/* Logo and navigation */
+.header {
 	width: 100%;
 	margin: 0 auto;
+	background-color: lightsalmon;
 }
+	#logo {
+		width: 50%;
+		margin: 0;
+		margin-top: 2.5%;
+		border: 2px solid red;
+		float: left;
+	}
+	#logo img {
+		width: 100%;
+	}
 
-.logo {
-	width: 50%;
-	margin: 0;
-	margin-top: 2.5%;
-	border: 2px solid red;
-	float: left;
-}
+	#contact {
+		list-style:none;
+		margin: 0;
+	}
+	#contact li {
+		display:inline;
+	}
+	#contact a {
+		display:inline-block;
+	}
+	#contact img {
+		height: 48px;
+	}
 
-.logo img {
-	width: 100%;
-}
+/* Display section */
+	#display {
+		max-width: 50%;
+		margin: auto;
+		background-color: lawngreen;
+	}
+	#display img {
+		width: 100%;
+	}
 
-.contact {
-	list-style:none;
-    margin: 0;
-}
-
-.contact li {
-	display:inline;
-	height: 48px;
-}
-
-.contact a {
-	display:inline-block;
-	height: inherit;
-}
-
-.contact img {
-	object-fit: contain;
-	height: 100%;
-}
-
-#linkEmail a:hover, a.selected {
-	background-image: url(img/EmailHover.gif);
-}
-
-.dance {
-	max-width: 50%;
-	margin: auto;
-}
-
-.dance img {
-	width: 100%;
-}
+/* Main content */
+	.main {
+		background-color: khaki;
+	}
 
 /* tablet */
 @media only screen 
@@ -96,19 +88,16 @@ and (max-device-width : 1024px) {
 	
 	.contact li {
 		display:inline;
-		height: 48px;
 		float: none;
 		display: initial;
 	}
 	
 	.contact a {
 		display:inline-block;
-		height: inherit;
 	}
 	
 	.contact img {
-		object-fit: contain;
-		height: 100%;
+		height: 48px;
 	}
 }
 
@@ -124,9 +113,8 @@ and (max-device-width : 1024px) {
 		margin-top: 2.5%
 	}
 
-	.contact li {
+	.contact img {
 		height: 32px;
-		display: initial;
 	}
 
 	.logo {
