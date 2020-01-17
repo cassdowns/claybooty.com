@@ -42,9 +42,22 @@ html, body {
 	height: 56px;
 }
 
-#imgInsta {
-	margin-right: 40px;
-}
+	#imgInsta {
+		background-image: url('img/insta.png') no-repeat top left;
+		margin-right: 40px;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+
+	#imgEmail {
+		background-image: url('img/email.png') no-repeat top left;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	#imgEmail:hover {
+		background-image: url('img/EmailHover.gif');
+	}
 
 .dance {
 	max-width: 50%;
