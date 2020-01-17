@@ -38,12 +38,16 @@ html, body {
 	display:inline;
 }
 
-.contact a {
-	display:inline-block;
+.contact img {
+	height: 56px;
 }
 
-.contact img {
-	height: 48px;
+#imgInsta {
+	margin-right: 40px;
+}
+
+#imgInsta a:hover {
+	background-image: url(img/EmailHover.gif)
 }
 
 .dance {
@@ -59,6 +63,14 @@ html, body {
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
+	#imgInsta {
+		margin-right: 32px;
+	}
+
+	.contact img {
+		height: 48px;
+	}
+	
 	.dance {
 		max-width: 70%;
 	}
@@ -67,15 +79,6 @@ and (max-device-width : 1024px) {
 /* phone*/
 @media only screen 
 and (max-width: 600px) {
-	.dance {
-		max-width: 75%;
-		margin-top: 2.5%
-	}
-
-	.contact img {
-		height: 32px;
-	}
-
 	.logo {
 		max-width: 100%;
 	}
@@ -83,5 +86,18 @@ and (max-width: 600px) {
 	.logo img {
 		margin-top: 7.5%;
 		margin-bottom: 5%;
+	}
+	
+	#imgInsta {
+		margin-right: 24px;
+	}
+
+	.contact img {
+		height: 40px;
+	}
+
+	.dance {
+		max-width: 75%;
+		margin-top: 2.5%
 	}
 }
