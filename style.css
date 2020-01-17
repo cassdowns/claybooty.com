@@ -38,15 +38,19 @@ html, body {
 	display:inline;
 }
 
+.contact img {
+	height: 56px;
+}
+
 	#imgInsta {
 		background-image: url('img/insta.png');
 		margin-right: 40px;
-		height: 56px;
+		height: inherit;
 	}
 
 	#imgEmail {
 		background-image: url('img/email.png');
-		height: 56px;
+		height: inherit;
 	}
 	
 	#imgEmail:hover {
