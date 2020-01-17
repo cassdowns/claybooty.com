@@ -15,7 +15,7 @@ html, body {
 	max-width: 960px; 
 	padding-right: 10px; 
 	padding-left:  10px;
-	grid-column: mid;
+	grid-column: mid / span 1;
 }
 
 	.logo {
@@ -47,20 +47,20 @@ html, body {
 		margin-right: 40px;
 	}
 
-.dance {
-	max-width: 50%;
-	margin: auto;
-}
+	.dance {
+		max-width: 50%;
+		margin: auto;
+	}
 
-.dance img {
-	width: 100%;
-}
+	.dance img {
+		width: 100%;
+	}
 
-.content {
-	width: 100%;
-	background-color: green;
-	grid-column: mid;
-}
+	.content {
+		width: 100%;
+		background-color: green;
+		text-align: center;
+	}
 
 /* tablet */
 @media only screen 
