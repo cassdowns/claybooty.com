@@ -41,9 +41,15 @@ html, body {
 		border: 2px dashed blue;
 	}
 
+<<<<<<< HEAD
 		.contact li {
 			display:inline;
 		}
+=======
+a #linkEmail:hover {
+	background-image: url(img/EmailHover.gif);
+}
+>>>>>>> parent of 8c71338... Adjusted a selector
 
 		.contact img {
 			height: 48px;
