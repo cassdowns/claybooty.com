@@ -54,13 +54,13 @@ html, body {
 	}
 
 .content {
-	background-color: lime;
+	background-color: wheat;
 }
 
 	.dance {
 		max-width: 50%;
 		margin: auto;
-		border: 2px dashed blue;
+		border: 2px dashed yellowgreen;
 	}
 
 	.dance img {
