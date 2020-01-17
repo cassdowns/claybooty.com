@@ -43,14 +43,14 @@ html, body {
 }
 
 	#imgInsta {
-		background-image: url('img/insta.png');
+		background-image: url('img/insta.png') no-repeat top left;
 		margin-right: 40px;
-		height: inherit;
+		background-size: contain;
 	}
 
 	#imgEmail {
-		background-image: url('img/email.png');
-		height: inherit;
+		background-image: url('img/email.png') no-repeat top left;
+		background-size: contain;
 	}
 	
 	#imgEmail:hover {
