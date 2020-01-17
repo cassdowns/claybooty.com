@@ -1,14 +1,15 @@
-/* Structure */
-
+/* Shake your booty, shake your booooty */
 html, body {
     background-color:#fff;
 }
 
+/* Major lazer container */
 .container {
 	margin-right: auto;
 	margin-left:  auto;
 }
 
+/* Desktop constraints */
 .wrapper {
 	margin-right: auto; 
 	margin-left:  auto; 
@@ -16,6 +17,7 @@ html, body {
 	padding: 2.5% 5%;
 }
 
+/* Top level navigation */
 #header {
 	width: 100%;
 	margin: 0 auto;
@@ -30,9 +32,9 @@ html, body {
 		float: left;
 	}
 
-	.logo img {
-		width: 100%;
-	}
+		.logo img {
+			width: 100%;
+		}
 
 	.contact {
 		list-style:none;
@@ -40,19 +42,15 @@ html, body {
 		border: 2px dashed blue;
 	}
 
-	.contact li {
-		display:inline;
-	}
+		.contact li {
+			display:inline;
+		}
 
-	.contact a {
-		display:inline-block;
-	}
+		.contact img {
+			height: 48px;
+		}
 
-	.contact img {
-		object-fit: contain;
-		height: 48px;
-	}
-
+/* Body of the site */
 .content {
 	background-color: wheat;
 }
@@ -61,6 +59,7 @@ html, body {
 		max-width: 50%;
 		margin: auto;
 		border: 2px dashed yellowgreen;
+		float: left;
 	}
 
 	.dance img {
@@ -82,6 +81,7 @@ and (max-device-width : 1024px) {
 	.dance {
 		max-width: 50%;
 		margin: auto;
+		float: none;
 	}
 	
 	.dance img {
@@ -103,12 +103,7 @@ and (max-device-width : 1024px) {
 		float: none;
 	}
 	
-	.contact a {
-		display:inline-block;
-	}
-	
 	.contact img {
-		object-fit: contain;
 		height: 48px;
 	}
 }
@@ -122,7 +117,8 @@ and (max-device-width : 1024px) {
 
 	.dance {
 		max-width: 75%;
-		margin-top: 2.5%
+		margin-top: 2.5%;
+		float: none;
 	}
 
 	.contact img {
