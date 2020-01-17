@@ -27,7 +27,6 @@ html, body {
 	margin-top: 2.5%;
 	border: 2px solid red;
 	float: left;
-	vertical-align: middle;
 }
 
 .logo img {
@@ -36,13 +35,12 @@ html, body {
 
 .contact {
 	list-style:none;
-    margin:auto;
-	vertical-align: middle;
+    margin: 0;
 }
 
 .contact li {
 	display:inline;
-	height: 48px
+	height: 48px;
 }
 
 .contact a {
@@ -86,11 +84,10 @@ and (max-device-width : 1024px) {
 	}
 
 	.logo {
-		width: 80%;
+		width: 90%;
 		margin: auto;
 		margin-top: 2.5%;
 		float: none;
-		vertical-align: middle;
 	}
 	
 	.logo img {
@@ -102,7 +99,6 @@ and (max-device-width : 1024px) {
 		height: 48px;
 		float: none;
 		display: initial;
-		vertical-align: middle;
 	}
 	
 	.contact a {
@@ -131,16 +127,12 @@ and (max-device-width : 1024px) {
 	.contact li {
 		height: 32px;
 		display: initial;
-		vertical-align: middle;
 	}
 
 	.logo {
 		width: 100%;
-		margin: auto;
 		margin-bottom: 5%;
 		margin-top: 7.5%;
-		float: none;
-		vertical-align: middle;
 	}
 
 }
